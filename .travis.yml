@@ -20,4 +20,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push rdevcd2020/udagram-frontend
+  - docker push rdevcd2020/udagram-frontend:v3

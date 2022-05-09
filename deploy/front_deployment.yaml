@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: rdevcd2020/udagram-frontend:v9
+        image: rdevcd2020/udagram-frontend:v10
         ports:
         - name: http
           containerPort: 8100
